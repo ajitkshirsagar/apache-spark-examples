@@ -2,6 +2,7 @@
 Following code snippet demonstrates on how we can define custom transformations & chain the function calls
 since, Spark Scala API provides `.transform` method for DataFrame through which we can chain the function calls
 but PySpark's DataFrame API lacks this in Spark version < 3.x
+https://github.com/apache/spark/pull/23877
 """
 import typing as T
 from pyspark.sql.session import SparkSession
